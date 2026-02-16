@@ -35,7 +35,7 @@ const projects = [
 ]
 
 export function ProjectsSection() {
-  console.log("ProjectsSection loaded - Firebase TOKEN ready for deployment");
+  console.log("ProjectsSection loaded - CHECKING VISIBILITY NOW");
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -119,7 +119,7 @@ export function ProjectsSection() {
                     ))}
                   </div>
                   
-                  <div className="mt-auto flex justify-center p-2">
+                  <div className="flex justify-center p-2">
                     <a
                       href={project.githubUrl}
                       target="_blank"
