@@ -35,7 +35,7 @@ const projects = [
 ]
 
 export function ProjectsSection() {
-  console.log("ProjectsSection loaded - Firebase deployment SUCCESS");
+  console.log("ProjectsSection loaded - Firebase TOKEN ready for deployment");
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
